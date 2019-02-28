@@ -28,7 +28,7 @@ jobs:
     environment:
       - PROJECT_NAME: "AWSHacknight"
       - GOOGLE_PROJECT_ID: "awshacknight"
-      - GOOGLE_COMPUTE_ZONE: "asia-east1-a"
+      - GOOGLE_COMPUTE_ZONE: "us-central1-a"
       - GOOGLE_CLUSTER_NAME: "hacknightvol4-cluster"
     steps:
       - checkout
